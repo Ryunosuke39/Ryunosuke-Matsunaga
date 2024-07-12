@@ -30,11 +30,12 @@ body {
 }
 
 .page_right {
+    margin-bottom: 5rem;
 }
 
 .name_page {
     position: fixed;
-    padding-left: 5rem;
+    padding-left: 10rem;
     display: inline-block;
 }
 
@@ -52,6 +53,8 @@ body {
     white-space: nowrap;
     overflow: hidden;
     animation: typing 2s steps(18), cursor .4s step-end infinite alternate;
+
+    margin-bottom: 1rem;
 }
 
 /* cursor blinking  */
@@ -64,11 +67,44 @@ body {
     from { width: 0}
 }
 
+.fa-github {
+    font-size: 2rem;
+    color: plum;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.fa-linkedin {
+    font-size: 2rem;
+    color: skyblue;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.fa-square-x-twitter {
+    font-size: 2rem;
+    color: white;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.fa-square-facebook {
+    font-size: 2rem;
+    color: blue;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
 section {
     /* display: grid;
     place-items: center;
     align-content: center; */
     min-height: 50vh;
+    padding-right: 10rem;
+}
+
+.section_head {
+    padding: 5rem;
 }
 
 /* slide animation */
@@ -89,6 +125,19 @@ section {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+.project {
+    border-radius: 30px;
+    background: #3c31dd;
+    padding: 1rem;
+    width: 40rem;
+    height: 10rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr, 3fr);
 }
 
 /* curve backgroud */
