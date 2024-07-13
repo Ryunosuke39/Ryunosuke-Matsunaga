@@ -182,6 +182,11 @@
         margin-bottom: 0.7rem;
     }
 
+    .project-duration {
+        opacity: 0.5;
+        font-size: 0.7rem;
+    }
+
     .project-dis {
         font-size: small;
         font-family: "Work Sans", sans-serif;
