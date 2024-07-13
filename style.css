@@ -58,6 +58,21 @@ body {
     margin-bottom: 1rem;
 }
 
+.nav {
+    margin-top: 5rem;
+}
+
+.nav_tab {
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+.active {
+    font-size: 1rem;
+    opacity: 1;
+    transition: 1s;
+}
+
 /* cursor blinking  */
 @keyframes cursor {
     50% { border-color: transparent }
@@ -100,7 +115,7 @@ section {
     /* display: grid;
     place-items: center;
     align-content: center; */
-    min-height: 50vh;
+    min-height: 60vh;
 }
 
 /* slide animation */
@@ -125,7 +140,7 @@ section {
 
 .breif_intro {
     padding: 2rem;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 
 .breif_intro_contents {
@@ -133,8 +148,8 @@ section {
     margin-bottom: 2rem;
 }
 
-a:link {
-    color: green;
+a {
+    color: white;
 }
 
 .history {
